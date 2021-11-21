@@ -3,18 +3,19 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    margin: 0px;
+    margin: 0;
     background-color: #262626;
     overflow: hidden;
 }
 
 p{
     font-size: 8px;
+    text-align:  justify;
     line-height: 8px;
     background:url(lune.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    -webkit-background-clip:text;
+    -webkit-background-clip: text;
     background-attachment: fixed;
     -webkit-text-fill-color:rgba(255,255,255,0);
 }
